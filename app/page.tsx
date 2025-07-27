@@ -3,7 +3,7 @@ import { GradientHeading } from "@/components/ui/gradient-heading";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col items-center justify-center p-8">
+    <div className="min-h-screen flex flex-col items-center justify-center p-8">
       <div className="text-center space-y-8 max-w-md mx-auto">
         <div className="space-y-4">
           <GradientHeading size="lg" align="center" className="mb-8">
